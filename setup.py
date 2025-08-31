@@ -4,7 +4,7 @@ import unittest
 from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 
 CUDA_FLAGS = []
-INSTALL_REQUIREMENTS = ["torch", "scikit-image", "numpy"]
+INSTALL_REQUIREMENTS = ["torch", "scikit-image", "numpy", "cython"]
 
 def test_all():
     test_loader = unittest.TestLoader()
